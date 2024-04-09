@@ -1,3 +1,6 @@
+let btn_click = new Audio("90s-game-ui-6-185099.mp3")
+let win = new Audio("success-fanfare-trumpets-6185.mp3")
+
 let user = document.querySelector('.user');
 user.innerHTML = "USER";
 let computer = document.querySelector('.computer');
@@ -19,7 +22,7 @@ let game_logic = () =>{
     let buttons = document.querySelectorAll('.button');
     Array.from(buttons).forEach((button) => {       
         button.addEventListener('click' , () =>{
-
+            btn_click.play();
             win_text.style.fontSize = "4em";
             random = Math.round(Math.random() * 3);
             user.innerHTML = button.innerHTML;
@@ -36,14 +39,18 @@ let game_logic = () =>{
             }
             else if(user.innerHTML === rock.innerHTML && computer.innerHTML === scissor.innerHTML){
                 win_text.innerHTML = "User Wins!";
-                user_count = user_count + 1;            }
+                user_count = user_count + 1;
+                win.play();
+            }
             else if(user.innerHTML === paper.innerHTML && computer.innerHTML === rock.innerHTML){
                 win_text.innerHTML = "User Wins!";
                 user_count = user_count + 1;
+                win.play();
             }
             else if(user.innerHTML === scissor.innerHTML && computer.innerHTML === paper.innerHTML){
                 win_text.innerHTML = "User Wins!";
                 user_count = user_count + 1;
+                win.play();
             }
             else if(user.innerHTML === scissor.innerHTML && computer.innerHTML === rock.innerHTML){
                 win_text.innerHTML = "Computer Wins!";
