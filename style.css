@@ -165,7 +165,8 @@ html {
     }
 
     .game_logic_text {
-        gap: 4em;
+        gap: 6em;
+        font-size: 1em;
     }
 
     .text {
@@ -176,12 +177,13 @@ html {
     .computer {
         height: 10rem;
         width: 10rem;
+        font-size: 3em;
     }
 
     .game_info {
         height: 7rem;
-        width: 24rem;
-        font-size: 3.5em;
-        margin: 3vh 0 0 0 ;
+        width: 27rem;
+        font-size: 3em;
+        margin: 2vh 0 0 0 ;
     }
 }
