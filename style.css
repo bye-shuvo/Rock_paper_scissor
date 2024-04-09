@@ -182,10 +182,10 @@ html {
     }
 
     .game_info {
-        height: 7rem;
+        margin-top: 2rem;
+        height: auto;
         width: 20rem;
         font-size: 3.5em;
-        margin: 2vh 0 2vh 0 ;
         flex-direction: column;
         gap: 0;
     }
