@@ -32,6 +32,7 @@ html {
     font-size: 4.5em;
     text-align: center;
     gap: 1em;
+    margin: 0 0 5vh 0;
 }
 
 .score {
@@ -140,7 +141,7 @@ html {
 @media screen and (max-width : 885px) {
 
     .game_display {
-        height: 30rem;
+        height: 25rem;
         width: 24rem;
         justify-content: space-between;
         flex-direction: column;
@@ -149,7 +150,6 @@ html {
     .game_logic {
         height: 10rem;
         width: 24rem;
-        margin-top: 0em;
         justify-content: space-between;
     }
 
@@ -159,8 +159,8 @@ html {
 
     .game_logic_text span,
     .button {
-        height: 6rem;
-        width: 6rem;
+        height: 5rem;
+        width: 5rem;
         font-size: 3em;
     }
 
@@ -174,13 +174,14 @@ html {
 
     .user,
     .computer {
-        height: 12rem;
-        width: 12rem;
+        height: 10rem;
+        width: 10rem;
     }
 
     .game_info {
         height: 7rem;
         width: 24rem;
         font-size: 3.5em;
+        margin: 3vh 0 0 0 ;
     }
 }
