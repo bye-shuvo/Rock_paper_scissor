@@ -21,6 +21,7 @@ html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 .game_info {
@@ -33,6 +34,7 @@ html {
     text-align: center;
     gap: 1em;
     margin: 0 0 5vh 0;
+    text-wrap: wrap;
 }
 
 .score {
@@ -142,7 +144,7 @@ html {
 
     .game_display {
         height: 25rem;
-        width: 24rem;
+        width: 30rem;
         justify-content: space-between;
         flex-direction: column;
     }
@@ -182,8 +184,10 @@ html {
 
     .game_info {
         height: 7rem;
-        width: 27rem;
-        font-size: 3em;
-        margin: 2vh 0 0 0 ;
+        width: 20rem;
+        font-size: 3.5em;
+        margin: 2vh 0 2vh 0 ;
+        flex-direction: column;
+        gap: 0;
     }
 }
