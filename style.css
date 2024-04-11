@@ -12,6 +12,7 @@ html{
     background-image: url("space_background.jpg");
     background-position: center;
     background-size: cover;
+    background-color: rgb(40, 55, 69);
 }
 
 .game_container {
