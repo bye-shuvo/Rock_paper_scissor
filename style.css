@@ -9,7 +9,7 @@
 }
 
 .game_container {
-    background-image: url("/JS_PROJECTS/Rock_paper_scissor_game/Rock_paper_scissor/2211.w026.n002.2794B.p1.2794.jpg");
+    background-image: url("space_background.jpg");
     background-position: center;
     background-size: cover;
     height: 100vh;
