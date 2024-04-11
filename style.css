@@ -8,10 +8,14 @@
     color: orange;
 }
 
-.game_container {
+html{
     background-image: url("space_background.jpg");
     background-position: center;
     background-size: cover;
+}
+
+.game_container {
+
     height: 100vh;
     width: 100vw;
     font-size: 10px;
